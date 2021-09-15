@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.title{
+	font-size: 40px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+#transaction_details {
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #transaction_details td, #transaction_details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #transaction_details tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #transaction_details tr:hover {background-color: #ddd;}
+  
+  #transaction_details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #5d6763;
+    color: white;
+  }
+

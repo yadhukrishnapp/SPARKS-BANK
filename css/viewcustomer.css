@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.heading{
+	font-size: 40px;
+    text-align: center;
+    margin: 35px 0 25px 0;
+}
+
+#user_info {
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #user_info td, #user_info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #user_info tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #user_info tr:hover {background-color: #ddd;}
+  
+  #user_info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #5d6763;
+    color: white;
+  }
+

@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contactSection {
+  position: relative;
+}
+
+#contactSection h1{
+  font-family: 'Bree Serif', serif;
+  font-size: 3rem;
+  padding: 12px;
+  text-align: center;
+}
+
+#contactSection_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #986565;
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 47%;
+  height: 340px;
+  margin: auto;
+}
+
+#contactSection_container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+#contents p {
+  color: white;
+  font-size: 20px;
+  padding: 10px 50px;
+}

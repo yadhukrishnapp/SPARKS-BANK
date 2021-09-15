@@ -1,0 +1,126 @@
+#createuserSection {
+    position: relative;
+}
+
+#createuserSection h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    padding: 12px;
+    text-align: center;
+}
+
+#createuserSection_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 20px;
+    width: 45%;
+    height: 560px;
+    margin: auto;
+}
+
+#createuserSection_container img {
+    height: 230px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 40%;
+}
+
+#contact-box form{
+    width: 100%;
+}
+
+#contact-box label{
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+    padding-left: 15px;
+}
+
+#contact-box .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 0;
+    margin: 5px 0;
+    box-shadow:0 0 15px 4px rgb(46, 22, 22);
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#contact-box #submit {
+    position: relative;
+    cursor: pointer;
+    bottom: -26px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#contact-box #reset {
+    position: relative;
+    cursor: pointer;
+    left: 218px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#contact-box #submit:hover {
+    background-color: rgb(54, 27, 40);
+    color: white;
+    font-weight: bold;
+}
+
+#contact-box #reset:hover {
+    background-color: rgb(15, 33, 37);
+    color: white;
+    font-weight: bold;
+}
+
+/* @media screen and (max-width: 100%) {
+    #contact-box .form-group #reset {
+        position: relative;
+        cursor: pointer;
+        left: 218px;
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+    }
+}
+
+@media screen and (max-width: 80%) {
+    #contact-box .form-group #reset {
+        display: none;
+    }
+
+    #contact-box #reset:hover {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 33%) {
+    #contact-box .form-group #reset {
+        display: none;
+    }
+
+    #contact-box #reset:hover {
+        display: none;
+    }
+} */
+
+
